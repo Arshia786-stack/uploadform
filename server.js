@@ -10,8 +10,8 @@ const port = 3000;
 const s3Client = new S3Client({
   region: 'us-east-1',
   credentials: {
-    accessKeyId: 'AKIAQQG3ZGJOXSEO5EZO',
-    secretAccessKey: '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',
+    accessKeyId: '',
+    secretAccessKey: '',
   },
 });
 
@@ -38,7 +38,7 @@ app.post('/upload', upload.single('photo'), async (req, res) => {
 
   // Upload file to S3 bucket
   const params = {
-    Bucket: 'storespring',
+    Bucket: '',
     Key: file.originalname,
     Body: file.buffer,
     ACL: 'public-read', // Set the appropriate ACL for your use case
