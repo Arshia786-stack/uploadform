@@ -9,7 +9,7 @@
 
 The File Upload Form is a web application that provides a user-friendly interface for uploading files along with accompanying form data. The uploaded files are stored in an AWS S3 bucket, while the form data is processed and logged to the console.
 
-This project serves as a demonstration of handling file uploads and integrating with AWS S3 using Node.js and Express.js. It showcases the following features:
+This project serves as a demonstration of handling file uploads and integrating with AWS S3 using Node.js . It showcases the following features:
 
 - HTML form with fields for Name, Age, Email, and Photo upload.
 - CSS styling to enhance the visual appeal of the form.
@@ -40,7 +40,7 @@ To get started with the File Upload Form application, follow these steps:
 3. Navigate to the project directory in your terminal.
 4. Run `npm install` to install the project dependencies.
 5. Update the AWS credentials in the `server.js` file with your own AWS access key and secret access key.
-6. Start the server by running `npm start`.
+6. Start the server by running `node server.js`.
 7. Access the application in your web browser by visiting `http://localhost:3000`.
 
 ---
