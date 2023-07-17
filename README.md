@@ -39,7 +39,7 @@ To get started with the File Upload Form application, follow these steps:
 2. Install Node.js and npm (Node Package Manager) if they are not already installed on your machine.
 3. Navigate to the project directory in your terminal.
 4. Run `npm install` to install the project dependencies.
-5. Update the AWS credentials in the `app.js` file with your own AWS access key and secret access key.
+5. Update the AWS credentials in the `server.js` file with your own AWS access key and secret access key.
 6. Start the server by running `npm start`.
 7. Access the application in your web browser by visiting `http://localhost:3000`.
 
